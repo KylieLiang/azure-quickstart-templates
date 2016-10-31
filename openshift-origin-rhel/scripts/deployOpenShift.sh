@@ -2,8 +2,6 @@
 
 set -e
 
-echo "$*" > /tmp/debug.txt
-whoami >> /tmp/debug.txt
 
 SUDOUSER=$1
 PASSWORD=$2
